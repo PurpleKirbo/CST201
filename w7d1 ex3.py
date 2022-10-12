@@ -19,7 +19,7 @@ def main():
         flag = str(input("If this is not correct type n/N if it is correct hit any other key: "))
     number = int(input("\nEnter a number that you want to see the square root values: "))
     for i in range(0, number +1):
-        print("{0:2s}{1:<15,d}{2:2s}{3:<15,.2f}".format("", i, "", math.sqrt(i))
+        print("{0:2s}{1:<15,d}{2:2s}{3:<15,.2f}".format("", i, "", math.sqrt(i)))
 
 
 
