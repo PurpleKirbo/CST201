@@ -1,0 +1,9 @@
+#this program prompts the user for geometric data on a circle and gives output
+import circle
+
+def main():
+    #declare variables
+    rad = 0.00
+    rad = float(input("\nEnter the radius of the circle: "))
+    print("\n\n\tThe area of the circle is {0:,.3f}".format(circle.Area(rad)))
+    print("\n\n\tThe circumference of the circle is {0:,.3f}".format(circle.Area(Circumference)))

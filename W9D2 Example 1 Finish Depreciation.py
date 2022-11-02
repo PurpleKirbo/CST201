@@ -42,9 +42,8 @@ def main():
         totalDep = totalDep + slDep #this updates total depreciation
         endValue = cost - totalDep #this updates the ending value variable 
         print("{0:5d}{1:>12,.2f}{2:>15,.2f}{3:>18,.2f}{4:>18,.2f}".format(purYr + i,beginValue,slDep,totalDep,endValue))
-        #purYr = purYr + 1 This will increment the year everytime through the loop
         beginValue = cost - totalDep #this will update the beggining value throught the loop
-        #brginValue = endValue this is another way to update the beginValue variable throught the loop
+        
 
     print("\n\nThe total depreciation for the asset is: {0,.2f}".format(totalDep))
     print("The salvage value of the asset is cost ${o,.2f} minus total depreciation ${1:,.2f} which equals ${2:,.2f}".format(cost, totalDep, cost - totalDep))
